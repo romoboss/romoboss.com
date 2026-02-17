@@ -55,18 +55,12 @@ fetch(`/sources/games/${id}/info.json`)
         </button>`;
       }
     };
-
-    if (game.trailer) {
-      document.getElementById("extraButtons").innerHTML +=
-        `<button class="button button-other" onclick="redirectToWebsite('${game.trailer}')">
-          <img src="../../Images/YouTube.png" width="45" height="45"> Watch Trailer
+    if (game.buttons) {
+      Object.entries(game.buttons).forEach(([element, value]) => {
+        document.getElementById("extraButtons").innerHTML +=
+          `<button class="button button-other" onclick="redirectToWebsite('${value}')">
+          ${element}
         </button>`;
-    }
-
-    if (game.download) {
-      document.getElementById("extraButtons").innerHTML +=
-        `<button class="button button-other" onclick="redirectToWebsite('${game.download}')">
-          Download
-        </button>`;
+      });
     }
   });

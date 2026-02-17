@@ -6,8 +6,11 @@
   "themeColor": "#189c9e",
   "icon": "https://romoboss.com/Images/DrobbiBird.png",
   "gameFile": "game.html",
-  "trailer": "https://youtu.be/_h-Rb0YXIbw?si=Mr4G9v_XoYYaHjSD",
-  "download": "https://romoboss.com/downloads/drobbi-bird",
+  "buttons": {
+    "Trailer": "https://youtu.be/_h-Rb0YXIbw?si=Mr4G9v_XoYYaHjSD",
+    "Download": "https://romoboss.com/downloads/drobbi-bird",
+    "Wiki": "https://drobbi-wiki.romoboss.com"
+  },
   "downloadUrl": "https://romoboss.com/downloads/drobbi-bird/--VERSION--/Drobbi%20Bird%20-%20Windows.zip",
   "descriptionHTML": "<b>Drobbi Bird</b> is a <b>tap-scroller</b> video game. The game's core mechanics were based on the Game Maker's Toolkit's \"The Unity Tutorial For Complete Beginners\" on YouTube. Drobbi Bird draws inspiration from the classic game <b>Flappy Bird</b>. Players control a character equipped with a jetpack, <b>tapping the screen</b> to propel the character upward. The objective is to navigate through an <b>endless series of pipes</b> without colliding with them.",
   "thumbnailImage": "https://romoboss.com/Images/DrobbiBirdBanner.png",
